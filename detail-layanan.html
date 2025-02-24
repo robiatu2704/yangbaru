@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Laundry</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <div class="logo-laundry">
+        <img
+          src="img/planet-laundry-logo.png"
+          alt="Planet Laundry Logo"
+          class="logo-icon"
+        />
+        <div class="logo-text">
+          <h1>PLANET LAUNDRY</h1>
+          <span>Bright and Clean</span>
+        </div>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Dari Planet Laundry, Pakaian Anda Siap Jelajah Lagi</h1>
+        <p>Jangan lupa laundry pakaianmu sekarang.</p>
+        <a href="#" class="cta">Ayo Laundry Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- Layanan Section start -->
+    <section
+      id="layanan"
+      class="layanan-section"
+      style="
+        background-image: url('img/background-layanan-baru.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      "
+    >
+      <h2 class="judul-layanan">Layanan Kami</h2>
+      <div class="layanan-container">
+        <a href="layanan-cuci-kering.html" class="layanan-item">
+          <img
+            src="img/layanan-ganti-cuci-kering.jpeg"
+            alt="Cuci Kering"
+            class="service-image"
+          />
+          <div class="layanan-text">
+            <h3>Cuci Kering</h3>
+            <p>Cuci kering</p>
+          </div>
+        </a>
+        <a href="layanan-cuci-lipat.html" class="layanan-item">
+          <img
+            src="img/layanan-ganti-cuci-lipat.jpeg"
+            alt="Cuci Lipat"
+            class="service-image"
+          />
+          <div class="layanan-text">
+            <h3>Cuci Lipat</h3>
+            <p>Cuci lipat</p>
+          </div>
+        </a>
+        <a href="layanan-setrika.html" class="layanan-item">
+          <img
+            src="img/layanan-ganti-setrika.jpeg"
+            alt="Setrika"
+            class="service-image"
+          />
+          <div class="layanan-text">
+            <h3>Setrika</h3>
+            <p>Setrika baju</p>
+          </div>
+        </a>
+        <a href="layanan-cuci-komplit.html" class="layanan-item">
+          <img
+            src="img/layanan-ganti-cuci-komplit.jpeg"
+            alt="Cuci Komplit"
+            class="service-image"
+          />
+          <div class="layanan-text">
+            <h3>Cuci Komplit</h3>
+            <p>Cuci komplit</p>
+          </div>
+        </a>
+      </div>
+      <div class="layanan-selengkapnya">
+        <button
+          class="selengkapnya-button"
+          onclick="location.href='layanan/index.html'"
+        >
+          Selengkapnya
+        </button>
+      </div>
+    </section>
+    <!-- Layanan Section end -->
+
+    <!-- Keunggulan Section start -->
+    <section id="keunggulan" class="keunggulan-section">
+      <h2 class="judul-keunggulan">Keunggulan</h2>
+      <ul>
+        <li>
+          <img
+            src="img/icon-pelayanan-cepat-ramah.png"
+            alt="Pelayanan Cepat"
+            class="icon"
+          />
+          <p>Pelayanan cepat dan ramah</p>
+        </li>
+        <li>
+          <img
+            src="img/icon-pilih-parfum.png"
+            alt="Memilih Parfum Sendiri"
+            class="icon"
+          />
+          <p>Pilih parfum sesukamu</p>
+        </li>
+        <li>
+          <img
+            src="img/icon-garansi-waktu.png"
+            alt="Garansi Tepat Waktu"
+            class="icon"
+          />
+          <p>Garansi waktu penyelesaian</p>
+        </li>
+        <li>
+          <img
+            src="img/icon-antar-jemput.png"
+            alt="Antar Jemput Gratis"
+            class=""
+          />
+          <p>Layanan antar jemput</p>
+        </li>
+      </ul>
+    </section>
+    <!-- Keunggulan Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2 class="about-tentang-kami">Tentang Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <div class="image-container"></div>
+        </div>
+        <div class="content">
+          <h3>Planet Laundry, Tempatnya Laundry Berkualitas</h3>
+          <h3>Tentang Planet Laundry</h3>
+          <p>
+            Planet Laundry memastikan setiap pakaian mendapatkan pelayanan
+            terbaik dengan layanan kualitas yang tinggi dan proses profesional.
+            Dengan teknologi modern dan standar kebersihan yang tinggi, kami
+            memastikan setiap pakaian dicuci, dirawat, dan dikembalikan dalam
+            kondisi terbaik. Planet Laundry kini hadir dengan layanan cepat,
+            efisien, dan terpercaya untuk memenuhi kebutuhan Anda.
+          </p>
+          <ul class="checklist">
+            <li><i data-feather="check"></i> Layanan cepat dan ramah</li>
+            <li><i data-feather="check"></i> Free antar jemput</li>
+            <li><i data-feather="check"></i> Garansi cuan bersih dan wangi</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2 class="judul-kontak">Kontak Kami</h2>
+      <div class="contact-container">
+        <div class="map-container">
+          <iframe
+            src="https://maps.app.goo.gl/mVVLV4JFy7kjT7c88"
+            width="100%"
+            height="350"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="alamat">
+          <h2>Cabang Bitung</h2>
+          <p>
+            <img src="img/icon-map.png" alt="Lokasi" class="icon-lokasi" />
+            Jl. Stadion 2 Saudara, Kota Bitung, Sulawesi Utara, Indonesia (Ruko
+            depan BPS kota Bitung)
+          </p>
+        </div>
+        <div class="social-container">
+          <div class="social-media">
+            <a
+              href="https://www.instagram.com/planet_laundry.btg"
+              target="_blank"
+            >
+              <img src="img/icon-instagram.png" alt="Instagram" />
+              @planet_laundry.btg
+            </a>
+          </div>
+          <div class="whatsapp">
+            <a href="https://wa.me/82196710592" target="_blank">
+              <img src="img/icon-whatssapp.jpeg" alt="WhatsApp" />
+              +62 82196710592
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
